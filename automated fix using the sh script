@@ -1,0 +1,22 @@
+ Step 1: Enable Persistent Storage in Tails
+
+Before starting, make sure Persistent Storage is enabled in Tails.
+If you haven't done this yet:
+
+1.Open Applications → Tails → Configure Persistent Volume.
+2.Enable dotfiles (which allows persistence of user configuration files).
+3.Restart Tails and make sure Persistence is unlocked.
+
+Step 2: Create & Run the Fix Script
+
+1.Open a Terminal (Applications → System Tools → Terminal).
+2.Download & Save the Script: nano fix_feather_icon.sh
+3. Save & Exit (Ctrl + X, then Y, then Enter).
+4.Make the Script Executable: chmod +x fix_feather_icon.sh
+5.Run the Script: ./fix_feather_icon.sh
+
+Step 3: Reboot Tails & Verify the Fix
+
+1.Reboot your system.
+2.Unlock Persistent Storage when prompted.
+3.Go to Applications → Internet → Feather Wallet and check if the icon is visible.
