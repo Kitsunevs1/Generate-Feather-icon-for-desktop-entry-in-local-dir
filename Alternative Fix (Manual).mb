@@ -2,20 +2,20 @@ If you don’t want to use the script, you can do it manually:
 
 1.Copy the Feather icon to ~/.local/share/icons/.
 
-`mkdir -p ~/.local/share/icons
+mkdir -p ~/.local/share/icons
 
-`cp /usr/share/icons/hicolor/256x256/apps/feather.png ~/.local/share/icons/
+cp /usr/share/icons/hicolor/256x256/apps/feather.png ~/.local/share/icons/
 
 2. Edit the Feather .desktop file:
 
-`nano ~/.local/share/applications/feather.desktop
+nano ~/.local/share/applications/feather.desktop
 
 Change the Icon= line to: 
 
-`Icon=/home/amnesia/.local/share/icons/feather.png
+Icon=/home/amnesia/.local/share/icons/feather.png
 
 3. Make it executable:
-`chmod +x ~/.local/share/applications/feather.desktop
+chmod +x ~/.local/share/applications/feather.desktop
 
 Final Notes
 This fix ensures that Feather Wallet’s icon remains visible after rebooting Tails.
